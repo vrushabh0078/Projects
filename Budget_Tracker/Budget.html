@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Budget Tracker</h2>
+  <div class="container">
+    <h4>My balance is</h4>
+    <h1 id="balance">Rs.0.0</h1>
+    <div class="income-exp-container">
+      <div>
+        <h4>My Income</h4>
+        <p id="money-add" class="money-add">+Rs.0.0</p>
+      </div>
+
+      <div>
+        <h4>My Expenditure</h4>
+        <p id="money-sub" class="money-sub">-Rs.0.0</p>
+      </div>
+    </div>
+
+    <h3>Transaction History</h3>
+    <ul id="list" class="list">
+      <li class="sub">
+        Salary <span>Rs.10000.00</span><button class="delete-btn">X</button>
+      </li>
+    </ul>
+
+    <h3>Add new Transaction</h3>
+    <form id="form">
+      <div class="form-control">
+        <label for="Text">Text</label>
+        <input type="text" id="text" placeholder="Enter text here....">
+      </div>
+      <div class="form-control">
+        <label for="amount">Amount</label>
+        <input type="number" id="amount" placeholder="Enter amount here....">
+      </div>
+      <button class="btn">All Transaction</button>
+
+    </form>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
